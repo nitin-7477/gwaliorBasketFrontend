@@ -1,0 +1,64 @@
+Company Table
+--------------
+companyid 
+companyname
+ownername
+emailaddress
+mobilenumber
+address
+state
+city
+logo
+password
+status
+createdat
+updateat
+createdby
+
+Category
+---------
+categoryid pk ai int
+companyid int
+category
+description
+icon
+createdat
+updateat
+createdby
+
+Products
+--------
+productid pk ai int
+companyid TB
+categoryid DD  int
+productname
+description
+status DD
+trending Radio Button Yes No
+deals Radio Yes No
+pricetype DD Kg/Ltr/Pieces
+image
+createdat
+updateat
+createdby
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
